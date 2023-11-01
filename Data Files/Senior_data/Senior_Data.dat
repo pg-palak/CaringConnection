@@ -10,6 +10,12 @@
    <dataSourceUrl>C:\Users\PalakGupta\OneDrive - pursuit software development pvt. ltd\Desktop\Senior_Sign_up_Type.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>
