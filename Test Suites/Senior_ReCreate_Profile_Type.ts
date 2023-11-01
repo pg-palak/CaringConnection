@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Senior_ReCreate_Profile_Type</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>1f3afabb-c37e-4a5b-9af3-617b6b2afc02</testSuiteGuid>
+   <testCaseLink>
+      <guid>df56624b-b30e-4f0b-81d1-fb90a722ac69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Senior_ReCreate_Profile_Type</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76c10b46-87e8-4732-b983-ff3598b13812</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Senior_data/Senior_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>76c10b46-87e8-4732-b983-ff3598b13812</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>f47e6f67-bc86-4701-9180-1e463ac13531</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76c10b46-87e8-4732-b983-ff3598b13812</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Role</value>
+         <variableId>b764e5b3-354c-4ed6-9a8f-232580ae74f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76c10b46-87e8-4732-b983-ff3598b13812</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>2f2f5b6a-cae2-4caf-9ec9-747aaaa81c65</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76c10b46-87e8-4732-b983-ff3598b13812</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NewProfile</value>
+         <variableId>3bfca8b9-5461-4806-bccb-a536e597247f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
