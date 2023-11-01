@@ -24,13 +24,13 @@ WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
 WebUI.maximizeWindow()
 
 //Enter UserName
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), 'Naveen')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), UserName)
 
 //Select Role Companion
-WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), 'Companion', false)
+WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), Role, false)
 
 //Enter Email
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), 'naveen44@gmail.com')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), Email)
 
 //Click on Get Started
 WebUI.click(findTestObject('Login_Page/Login_Page_Objects/btn_Get Started'))
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 WebUI.delay(5)
 
 //enter your new profile info
-WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), 'Hello! I’m Naveen, a passionate 24-year-old stepping into the fascinating world of philosophy. Currently pursuing a degree in philosophy, I’m deeply interested in exploring the profound questions of existence. My journey is just taking off, and I eagerly absorb wisdom like a book, with aspirations of becoming a philosopher. In my leisure time, I find peace in playing the guitar, immersing myself in the rhythm of blues music, and volunteering at a local animal shelter, where I learn so much about compassion and care. As I embark on this chapter, I look up to seniors for their insights and advice, hoping to gain from their rich life experiences. Health-wise, I’ve had a few instances of asthma, but a balanced diet and regular meditation practice keep me fit and ready for the adventures that lie ahead. Life is a philosophical puzzle waiting to be solved, and I’m thrilled to delve into its mysteries with each passing day.')
+WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), NewProfile)
 
 //scroll to next btn
 WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 
@@ -80,4 +80,6 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+
+WebUI.closeBrowser()
 

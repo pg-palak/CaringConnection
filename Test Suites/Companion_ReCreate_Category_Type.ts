@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Senior_ReCreate_Category_Type</name>
+   <name>Companion_ReCreate_Category_Type</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,63 +10,63 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>d7fdc7fa-bedb-40d5-b77a-08a3dd06c799</testSuiteGuid>
+   <testSuiteGuid>c6ddf9fc-772f-479a-bc26-886a5e4739d7</testSuiteGuid>
    <testCaseLink>
-      <guid>ba28fa06-e6d4-4c69-8109-3a9131bbd263</guid>
+      <guid>4030a761-f0e0-4d97-915c-e2336d55088e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_ReCreate_Category_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_ReCreate_Category_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</id>
+         <id>786bf78f-ddbd-495f-96f9-cd063224e5d6</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Senior_Data/Senior_Data</testDataId>
+         <testDataId>Data Files/Companion_data/Companion_data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UserName</value>
-         <variableId>70992ccd-d981-43a7-976f-e78d6557400c</variableId>
+         <variableId>02ce91d1-c8d4-4ddf-b01c-f3c25cd2dfd2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Role</value>
-         <variableId>0123025f-70bc-417c-b085-f5427ae7eb1d</variableId>
+         <variableId>6e8ec90a-8245-468b-b5b3-3658d831186f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
-         <variableId>aabdefb1-eb40-4971-929c-908de2e6d62a</variableId>
+         <variableId>7d2d6225-9c7c-4c24-b8b0-19d9b007fb30</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NewEducationInfo</value>
-         <variableId>67b1fbcc-0930-4c46-8b5b-a384e9f2269f</variableId>
+         <variableId>2b8295d4-74dc-45d7-894a-d576b6f89a97</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NewHobbiesInfo</value>
-         <variableId>a0ad1d92-68bc-4104-9367-031f4ff01fd4</variableId>
+         <variableId>e363002c-f008-4986-b586-f6b3b83d0189</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NewExpectationInfo</value>
-         <variableId>2c4d180c-5e8a-4bd6-8ca9-28ee1d633eb6</variableId>
+         <variableId>a3c90a53-6c0b-49a6-b549-b3cc16848307</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4e49a81f-2fff-4a70-a99e-39f9b5369d9d</testDataLinkId>
+         <testDataLinkId>786bf78f-ddbd-495f-96f9-cd063224e5d6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>NewHealthInfo</value>
-         <variableId>c647cd15-c534-4431-8655-2cf51403bd26</variableId>
+         <variableId>13cbd001-17df-428f-aac6-f0044257f0f4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

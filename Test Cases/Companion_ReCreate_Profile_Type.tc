@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2610b2b-5934-440d-bbc2-e7f485d96b98</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ec45aed-d59a-4d12-b95a-9a474b693df5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dff52691-6457-4d2a-bcdc-b666b3c8432e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c7f1d0c-0261-4d6c-a2ce-a8bf1929073a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25d969d8-38b8-4e37-9c8f-7c0b95bf9cb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ec45aed-d59a-4d12-b95a-9a474b693df5</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dff52691-6457-4d2a-bcdc-b666b3c8432e</id>
+      <masked>false</masked>
+      <name>Role</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c7f1d0c-0261-4d6c-a2ce-a8bf1929073a</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25d969d8-38b8-4e37-9c8f-7c0b95bf9cb4</id>
+      <masked>false</masked>
+      <name>NewProfile</name>
+   </variable>
 </TestCaseEntity>

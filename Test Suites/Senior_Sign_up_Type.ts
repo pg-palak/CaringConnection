@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Senior_ReCreate_Profile_Type</name>
+   <name>Senior_Sign_up_Type</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,15 +10,15 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>993f6f57-8750-4134-ae64-4a2fca502d47</testSuiteGuid>
+   <testSuiteGuid>573451c4-1450-4b62-8584-afecd3cec809</testSuiteGuid>
    <testCaseLink>
-      <guid>5b590eb9-d318-4b68-ac6a-8016bd58d4f5</guid>
+      <guid>b107b04f-7ea3-4ece-ab04-e660e4d51d31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_ReCreate_Profile_Type</testCaseId>
+      <testCaseId>Test Cases/Senior_Sign_up_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8749a77b-1f56-4f04-951d-ae0e202c2896</id>
+         <id>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,28 +27,28 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>8749a77b-1f56-4f04-951d-ae0e202c2896</testDataLinkId>
+         <testDataLinkId>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UserName</value>
-         <variableId>f47e6f67-bc86-4701-9180-1e463ac13531</variableId>
+         <variableId>8ddf70dd-d54c-486d-9e6d-bed3b9349256</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8749a77b-1f56-4f04-951d-ae0e202c2896</testDataLinkId>
+         <testDataLinkId>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Role</value>
-         <variableId>b764e5b3-354c-4ed6-9a8f-232580ae74f6</variableId>
+         <variableId>f9646872-0227-4fc3-a00d-5e1048c2bf3c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8749a77b-1f56-4f04-951d-ae0e202c2896</testDataLinkId>
+         <testDataLinkId>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
-         <variableId>2f2f5b6a-cae2-4caf-9ec9-747aaaa81c65</variableId>
+         <variableId>c053c35d-10ef-4a13-90c4-a45ee2a85b84</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8749a77b-1f56-4f04-951d-ae0e202c2896</testDataLinkId>
+         <testDataLinkId>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>NewProfile</value>
-         <variableId>3bfca8b9-5461-4806-bccb-a536e597247f</variableId>
+         <value>Profile</value>
+         <variableId>d7a05443-a7ab-4dbb-b1b8-d6fabb6c2da4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

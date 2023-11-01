@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:38:35,2023-11-01 17:49:30,10m - 54.846s,PASSED
+,,,,,,,
+Test Cases/Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:38:36,2023-11-01 17:40:46,2m - 10.167s,PASSED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-01 17:38:36,2023-11-01 17:38:43,6.882s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-01 17:38:43,2023-11-01 17:38:43,0.215s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-01 17:38:43,2023-11-01 17:38:44,0.880s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-01 17:38:44,2023-11-01 17:38:45,0.722s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-01 17:38:45,2023-11-01 17:38:45,0.704s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-01 17:38:45,2023-11-01 17:38:46,0.415s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:38:46,2023-11-01 17:38:48,1.988s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-01 17:38:48,2023-11-01 17:39:28,40.048s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-01 17:39:28,2023-11-01 17:39:59,31.496s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-01 17:39:59,2023-11-01 17:40:04,5.017s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-01 17:40:04,2023-11-01 17:40:06,1.698s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:40:06,2023-11-01 17:40:06,0.364s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 118.0.0.0,,,2023-11-01 17:40:06,2023-11-01 17:40:07,0.395s,PASSED
+delay(12),Chrome 118.0.0.0,,,2023-11-01 17:40:07,2023-11-01 17:40:19,12.023s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:40:19,2023-11-01 17:40:40,21.061s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""))",Chrome 118.0.0.0,,,2023-11-01 17:40:40,2023-11-01 17:40:40,0.418s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:40:40,2023-11-01 17:40:45,4.654s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-01 17:40:45,2023-11-01 17:40:46,0.705s,PASSED
+,,,,,,,
+Test Cases/Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:40:46,2023-11-01 17:42:53,2m - 7.325s,PASSED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-01 17:40:46,2023-11-01 17:40:51,5.202s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-01 17:40:51,2023-11-01 17:40:51,0.166s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-01 17:40:51,2023-11-01 17:40:52,0.792s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-01 17:40:52,2023-11-01 17:40:53,0.721s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-01 17:40:53,2023-11-01 17:40:53,0.791s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-01 17:40:53,2023-11-01 17:40:54,0.409s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:40:54,2023-11-01 17:40:57,2.683s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-01 17:40:57,2023-11-01 17:41:37,40.021s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-01 17:41:37,2023-11-01 17:42:08,31.542s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-01 17:42:08,2023-11-01 17:42:13,5.005s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-01 17:42:13,2023-11-01 17:42:15,1.623s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:42:15,2023-11-01 17:42:15,0.372s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 118.0.0.0,,,2023-11-01 17:42:15,2023-11-01 17:42:16,0.416s,PASSED
+delay(12),Chrome 118.0.0.0,,,2023-11-01 17:42:16,2023-11-01 17:42:28,12.005s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:42:28,2023-11-01 17:42:48,20.320s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""))",Chrome 118.0.0.0,,,2023-11-01 17:42:48,2023-11-01 17:42:48,0.394s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:42:48,2023-11-01 17:42:52,4.136s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-01 17:42:52,2023-11-01 17:42:53,0.687s,PASSED
+,,,,,,,
+Test Cases/Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:42:53,2023-11-01 17:44:54,2m - 0.969s,PASSED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-01 17:42:53,2023-11-01 17:42:57,3.593s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-01 17:42:57,2023-11-01 17:42:57,0.149s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-01 17:42:57,2023-11-01 17:42:58,0.727s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-01 17:42:58,2023-11-01 17:42:58,0.687s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-01 17:42:58,2023-11-01 17:42:59,0.716s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-01 17:42:59,2023-11-01 17:42:59,0.416s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:42:59,2023-11-01 17:43:02,2.205s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-01 17:43:02,2023-11-01 17:43:42,40.006s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-01 17:43:42,2023-11-01 17:44:13,31.765s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-01 17:44:13,2023-11-01 17:44:18,5.012s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-01 17:44:18,2023-11-01 17:44:20,1.707s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:44:20,2023-11-01 17:44:21,0.402s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 118.0.0.0,,,2023-11-01 17:44:21,2023-11-01 17:44:21,0.406s,PASSED
+delay(12),Chrome 118.0.0.0,,,2023-11-01 17:44:21,2023-11-01 17:44:33,12.009s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:44:33,2023-11-01 17:44:49,15.985s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""))",Chrome 118.0.0.0,,,2023-11-01 17:44:49,2023-11-01 17:44:49,0.384s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:44:49,2023-11-01 17:44:53,4.096s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-01 17:44:53,2023-11-01 17:44:54,0.672s,PASSED
+,,,,,,,
+Test Cases/Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:44:54,2023-11-01 17:46:59,2m - 4.962s,PASSED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-01 17:44:54,2023-11-01 17:44:58,3.888s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-01 17:44:58,2023-11-01 17:44:58,0.160s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-01 17:44:58,2023-11-01 17:44:59,0.741s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-01 17:44:59,2023-11-01 17:45:00,0.726s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-01 17:45:00,2023-11-01 17:45:00,0.723s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-01 17:45:00,2023-11-01 17:45:01,0.414s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:45:01,2023-11-01 17:45:03,2.267s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-01 17:45:03,2023-11-01 17:45:43,40.004s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-01 17:45:43,2023-11-01 17:46:15,31.572s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-01 17:46:15,2023-11-01 17:46:20,5.006s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-01 17:46:20,2023-11-01 17:46:21,1.539s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:46:21,2023-11-01 17:46:22,0.328s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 118.0.0.0,,,2023-11-01 17:46:22,2023-11-01 17:46:22,0.385s,PASSED
+delay(12),Chrome 118.0.0.0,,,2023-11-01 17:46:22,2023-11-01 17:46:34,12.015s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:46:34,2023-11-01 17:46:54,20.249s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""))",Chrome 118.0.0.0,,,2023-11-01 17:46:54,2023-11-01 17:46:55,0.394s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:46:55,2023-11-01 17:46:59,3.885s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-01 17:46:59,2023-11-01 17:46:59,0.647s,PASSED
+,,,,,,,
+Test Cases/Senior_Sign_up_Type,Chrome 118.0.0.0,,,2023-11-01 17:46:59,2023-11-01 17:49:30,2m - 30.709s,PASSED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-01 17:46:59,2023-11-01 17:47:04,4.585s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-01 17:47:04,2023-11-01 17:47:04,0.186s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-01 17:47:04,2023-11-01 17:47:05,0.747s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-01 17:47:05,2023-11-01 17:47:06,0.825s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-01 17:47:06,2023-11-01 17:47:06,0.767s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-01 17:47:06,2023-11-01 17:47:07,0.411s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:47:07,2023-11-01 17:47:10,2.822s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-01 17:47:10,2023-11-01 17:47:50,40.016s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-01 17:47:50,2023-11-01 17:48:21,31.491s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-01 17:48:21,2023-11-01 17:48:26,5.039s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-01 17:48:26,2023-11-01 17:48:28,1.725s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:48:28,2023-11-01 17:48:28,0.345s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 118.0.0.0,,,2023-11-01 17:48:28,2023-11-01 17:48:29,0.394s,PASSED
+delay(12),Chrome 118.0.0.0,,,2023-11-01 17:48:29,2023-11-01 17:48:41,12.017s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:48:41,2023-11-01 17:48:59,18.125s,PASSED
+"click(findTestObject(""Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue""))",Chrome 118.0.0.0,,,2023-11-01 17:48:59,2023-11-01 17:48:59,0.389s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you""), 0)",Chrome 118.0.0.0,,,2023-11-01 17:48:59,2023-11-01 17:49:29,30.118s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-11-01 17:49:29,2023-11-01 17:49:30,0.671s,PASSED

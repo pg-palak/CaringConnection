@@ -20,14 +20,16 @@ import org.openqa.selenium.Keys as Keys
 //open url
 WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
 
+WebUI.maximizeWindow()
+
 //Enter UserName
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), 'Naveen')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), UserName)
 
 //Select Role
-WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), 'Companion', false)
+WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), Role, false)
 
 //Enter Email
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), 'naveen44@gmail.com')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), Email)
 
 //Click on Get Started
 WebUI.click(findTestObject('Login_Page/Login_Page_Objects/btn_Get Started'))
@@ -46,7 +48,7 @@ WebUI.click(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/
 WebUI.delay(5)
 
 //enter you profie info
-WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), 'Greetings, I\'m Naveen , a dedicated environmental scientist, embracing my 40 years of existence. Armed with a Ph.D. in ecological research, I\'ve spent the past decade delving into the intricate dynamics of ecosystems. Besides the scientific realm, I find immense joy in expressing my creativity through the world of photography, capturing the mesmerizing moments of the natural world. In my quest for growth, I\'m in search of a mentor who can provide valuable insights as I navigate the intricate world of environmental research. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with regular hiking sessions ensuring both my physical and mental well-being. Life is a captivating journey, and I eagerly anticipate capturing more moments of beauty and discovery with each passing day.')
+WebUI.setText(findTestObject('Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'), Profile)
 
 //scroll to next btn
 WebUI.scrollToElement(findTestObject('Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next'), 
@@ -67,4 +69,6 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type",
+      "brokenLocator": "//button[(text() \u003d \u0027 I want to type\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[4]/div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231101_175352/Senior_ReCreate_Profile_Type/20231101_175352/Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type_idRelative.png"
+    }
+  ]
+}

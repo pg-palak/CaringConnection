@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_Sign_up_Type" time="654.846" tests="5" failures="0" errors="0">
+   <testsuite name="Senior_Sign_up_Type" tests="5" failures="0" errors="0" time="654.846" skipped="0" timestamp="2023-11-01 17:38:35" hostname="PalakGupta - LININDAUG23-266.bbrouter" id="Test Suites/Senior_Sign_up_Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PalakGupta\\git\\CaringConnection\\Reports\\20231101_173831\\Senior_Sign_up_Type\\20231101_173832"/>
+         <property name="logFiles" value="C:\\Users\\PalakGupta\\git\\CaringConnection\\Reports\\20231101_173831\\Senior_Sign_up_Type\\20231101_173832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PalakGupta - LININDAUG23-266.bbrouter"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="10648367a9cd2069b6c69fd4b8a14a52"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Senior_Sign_up_Type" time="130.167" classname="Test Cases/Senior_Sign_up_Type" status="PASSED">
+         <system-out><![CDATA[2023-11-01 17:38:36 - [TEST_CASE][PASSED] - Test Cases/Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type
+
+2023-11-01 17:38:36 - [TEST_STEP][PASSED] - openBrowser("https://caring-connections-qa.azurewebsites.net/"): Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:38:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-01 17:38:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-01 17:38:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:38:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-01 17:38:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-01 17:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Username"), UserName): Text 'Palak' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:38:44 - [MESSAGE][PASSED] - Text 'Palak' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:38:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Login_Page/Login_Page_Objects/Select_Role"), Role, false): All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:38:45 - [MESSAGE][PASSED] - All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Email"), Email): Text 'palak56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:38:45 - [MESSAGE][PASSED] - Text 'palak56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:38:45 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Page_Objects/btn_Get Started")): Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:38:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:38:48 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-11-01 17:39:28 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-11-01 17:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:39:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[(text() = ' I want to type')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-01 17:39:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'. Try using Self-healing.
+
+2023-11-01 17:39:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div[4]/div/div[2]/button'.
+
+2023-11-01 17:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:39:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-11-01 17:40:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-01 17:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Palak, a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in environmental science, I dedicated decades to understanding and preserving the natural world. Beyond scientific pursuits, I find solace in the rhythm of pottery, shaping clay into intricate forms, and the therapeutic art of cooking. In a companion, I seek someone who shares my passion for environmental conservation and has an appreciation for the creative blend of artistry and sustainable living. Health-wise, I've faced challenges with asthma, but with careful management and regular breathing exercises, I continue to pursue my passions with vigor. Life has been a captivating adventure, and I look forward to molding new experiences with a like-minded soul who appreciates the beauty of nature and the creativity of the human spirit.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:40:06 - [MESSAGE][PASSED] - Text 'Greetings, I'm Palak, a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in environmental science, I dedicated decades to understanding and preserving the natural world. Beyond scientific pursuits, I find solace in the rhythm of pottery, shaping clay into intricate forms, and the therapeutic art of cooking. In a companion, I seek someone who shares my passion for environmental conservation and has an appreciation for the creative blend of artistry and sustainable living. Health-wise, I've faced challenges with asthma, but with careful management and regular breathing exercises, I continue to pursue my passions with vigor. Life has been a captivating adventure, and I look forward to molding new experiences with a like-minded soul who appreciates the beauty of nature and the creativity of the human spirit.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:40:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:40:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:40:07 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-11-01 17:40:19 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-11-01 17:40:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:40:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:40:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:40:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you"), 0): Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:40:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:40:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-01 17:40:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_Sign_up_Type" time="127.325" classname="Test Cases/Senior_Sign_up_Type" status="PASSED">
+         <system-out><![CDATA[2023-11-01 17:40:46 - [TEST_CASE][PASSED] - Test Cases/Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type
+
+2023-11-01 17:40:46 - [TEST_STEP][PASSED] - openBrowser("https://caring-connections-qa.azurewebsites.net/"): Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:40:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-01 17:40:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-01 17:40:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:40:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-01 17:40:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-01 17:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Username"), UserName): Text 'Shresth' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:40:52 - [MESSAGE][PASSED] - Text 'Shresth' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:40:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Login_Page/Login_Page_Objects/Select_Role"), Role, false): All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:40:53 - [MESSAGE][PASSED] - All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:40:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Email"), Email): Text 'shresth56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:40:53 - [MESSAGE][PASSED] - Text 'shresth56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Page_Objects/btn_Get Started")): Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:40:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:40:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:40:57 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-11-01 17:41:37 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-11-01 17:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:42:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[(text() = ' I want to type')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-01 17:42:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'. Try using Self-healing.
+
+2023-11-01 17:42:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div[4]/div/div[2]/button'.
+
+2023-11-01 17:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:42:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-11-01 17:42:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-01 17:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Shresth, a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in astrophysics, I dedicated decades to exploring the mysteries of the universe. Beyond scientific pursuits, I find solace in the world of music, playing the piano and composing melodies that resonate with the cosmos. In a companion, I seek someone who shares my passion for stargazing and the wonders of the universe. Health-wise, I've faced challenges with arthritis, but with regular physiotherapy and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure, and I look forward to crafting new experiences with a like-minded soul who appreciates the beauty of the cosmos and the art of music.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:42:15 - [MESSAGE][PASSED] - Text 'Greetings, I'm Shresth, a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in astrophysics, I dedicated decades to exploring the mysteries of the universe. Beyond scientific pursuits, I find solace in the world of music, playing the piano and composing melodies that resonate with the cosmos. In a companion, I seek someone who shares my passion for stargazing and the wonders of the universe. Health-wise, I've faced challenges with arthritis, but with regular physiotherapy and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure, and I look forward to crafting new experiences with a like-minded soul who appreciates the beauty of the cosmos and the art of music.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:42:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:42:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:42:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:42:16 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-11-01 17:42:28 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-11-01 17:42:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:42:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:42:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:42:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you"), 0): Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:42:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:42:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-01 17:42:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_Sign_up_Type" time="120.969" classname="Test Cases/Senior_Sign_up_Type" status="PASSED">
+         <system-out><![CDATA[2023-11-01 17:42:53 - [TEST_CASE][PASSED] - Test Cases/Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type
+
+2023-11-01 17:42:53 - [TEST_STEP][PASSED] - openBrowser("https://caring-connections-qa.azurewebsites.net/"): Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:42:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-01 17:42:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-01 17:42:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:42:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-01 17:42:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-01 17:42:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Username"), UserName): Text 'Naveen' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:42:58 - [MESSAGE][PASSED] - Text 'Naveen' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:42:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Login_Page/Login_Page_Objects/Select_Role"), Role, false): All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:42:58 - [MESSAGE][PASSED] - All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Email"), Email): Text 'naveen56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:42:59 - [MESSAGE][PASSED] - Text 'naveen56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Page_Objects/btn_Get Started")): Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:42:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:43:02 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:43:02 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-11-01 17:43:42 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-11-01 17:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:44:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[(text() = ' I want to type')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-01 17:44:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'. Try using Self-healing.
+
+2023-11-01 17:44:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div[4]/div/div[2]/button'.
+
+2023-11-01 17:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:44:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-11-01 17:44:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-01 17:44:18 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:44:20 - [MESSAGE][PASSED] - Text 'Greetings, I'm Naveen , a seasoned explorer in the journey of life, joyfully celebrating my 58 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:44:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:44:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:44:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:44:21 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-11-01 17:44:33 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-11-01 17:44:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:44:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:44:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:44:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you"), 0): Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:44:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-01 17:44:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_Sign_up_Type" time="124.962" classname="Test Cases/Senior_Sign_up_Type" status="PASSED">
+         <system-out><![CDATA[2023-11-01 17:44:54 - [TEST_CASE][PASSED] - Test Cases/Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type
+
+2023-11-01 17:44:54 - [TEST_STEP][PASSED] - openBrowser("https://caring-connections-qa.azurewebsites.net/"): Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:44:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-01 17:44:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-01 17:44:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:44:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-01 17:44:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-01 17:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Username"), UserName): Text 'Kanchan' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:44:59 - [MESSAGE][PASSED] - Text 'Kanchan' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:44:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Login_Page/Login_Page_Objects/Select_Role"), Role, false): All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:45:00 - [MESSAGE][PASSED] - All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Email"), Email): Text 'kanchan56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:45:00 - [MESSAGE][PASSED] - Text 'kanchan56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Page_Objects/btn_Get Started")): Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:45:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:45:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:45:03 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-11-01 17:45:43 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-11-01 17:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:46:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[(text() = ' I want to type')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-01 17:46:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'. Try using Self-healing.
+
+2023-11-01 17:46:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div[4]/div/div[2]/button'.
+
+2023-11-01 17:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:46:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-11-01 17:46:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-01 17:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Kanchan , a seasoned explorer in the journey of life, joyfully celebrating my 55 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:46:21 - [MESSAGE][PASSED] - Text 'Greetings, I'm Kanchan , a seasoned explorer in the journey of life, joyfully celebrating my 55 years of existence. With a background in literature, I dedicated decades to exploring the rich world of words and stories. Beyond academic pursuits, I find solace in the world of painting, crafting vibrant canvases that express the beauty of the written word. In a companion, I hope to find someone who shares my love for literature and the appreciation for the creative blend of art and storytelling. Health-wise, I've faced challenges with allergies, but with careful management and a balanced lifestyle, I continue to pursue my passions with vigor. Life has been a captivating adventure through the pages of books and art, and I look forward to painting new chapters with a like-minded soul who values the beauty of storytelling and the creativity of artistic expression.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:46:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:46:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:46:22 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-11-01 17:46:34 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-11-01 17:46:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:46:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:46:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:46:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:46:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you"), 0): Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:46:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-01 17:46:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_Sign_up_Type" time="150.709" classname="Test Cases/Senior_Sign_up_Type" status="PASSED">
+         <system-out><![CDATA[2023-11-01 17:46:59 - [TEST_CASE][PASSED] - Test Cases/Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type
+
+2023-11-01 17:46:59 - [TEST_STEP][PASSED] - openBrowser("https://caring-connections-qa.azurewebsites.net/"): Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:46:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-01 17:46:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-01 17:47:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://caring-connections-qa.azurewebsites.net/'
+
+2023-11-01 17:47:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-01 17:47:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-01 17:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Username"), UserName): Text 'Harsh' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:47:05 - [MESSAGE][PASSED] - Text 'Harsh' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Username'
+
+2023-11-01 17:47:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Login_Page/Login_Page_Objects/Select_Role"), Role, false): All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:47:06 - [MESSAGE][PASSED] - All options with value 'Senior' are selected in object 'Object Repository/Login_Page/Login_Page_Objects/Select_Role' 
+
+2023-11-01 17:47:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Page_Objects/Input_Email"), Email): Text 'harsh56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:47:06 - [MESSAGE][PASSED] - Text 'harsh56@gmail.com' is set on object 'Object Repository/Login_Page/Login_Page_Objects/Input_Email'
+
+2023-11-01 17:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Page_Objects/btn_Get Started")): Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Page_Objects/btn_Get Started' is clicked on
+
+2023-11-01 17:47:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:47:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion' is present
+
+2023-11-01 17:47:10 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-11-01 17:47:50 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-11-01 17:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:48:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[(text() = ' I want to type')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-01 17:48:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type'. Try using Self-healing.
+
+2023-11-01 17:48:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div[4]/div/div[2]/button'.
+
+2023-11-01 17:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+2023-11-01 17:48:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-11-01 17:48:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-01 17:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Greetings, I'm Harsh, a seasoned explorer in the journey of life, joyfully celebrating my 57 years of existence. With a background in environmental science, I dedicated decades to understanding and preserving the natural world. Beyond scientific pursuits, I find solace in the world of pottery, shaping clay into intricate forms, and the therapeutic art of cooking. In a companion, I seek someone who shares my passion for environmental conservation and has an appreciation for the creative blend of artistry and sustainable living. Health-wise, I've faced challenges with asthma, but with careful management and regular breathing exercises, I continue to pursue my passions with vigor.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:48:28 - [MESSAGE][PASSED] - Text 'Greetings, I'm Harsh, a seasoned explorer in the journey of life, joyfully celebrating my 57 years of existence. With a background in environmental science, I dedicated decades to understanding and preserving the natural world. Beyond scientific pursuits, I find solace in the world of pottery, shaping clay into intricate forms, and the therapeutic art of cooking. In a companion, I seek someone who shares my passion for environmental conservation and has an appreciation for the creative blend of artistry and sustainable living. Health-wise, I've faced challenges with asthma, but with careful management and regular breathing exercises, I continue to pursue my passions with vigor.' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+2023-11-01 17:48:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:48:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+2023-11-01 17:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+2023-11-01 17:48:29 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-11-01 17:48:41 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-11-01 17:48:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:48:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' successfully
+
+2023-11-01 17:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue' is clicked on
+
+2023-11-01 17:48:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you"), 0): Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:48:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-01 17:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you' is present
+
+2023-11-01 17:49:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-01 17:49:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-01 17:38:35 - [TEST_SUITE][PASSED] - Senior_Sign_up_Type: Test Cases/Senior_Sign_up_Type]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

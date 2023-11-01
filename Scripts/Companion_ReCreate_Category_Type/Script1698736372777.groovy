@@ -24,28 +24,28 @@ WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
 WebUI.maximizeWindow()
 
 //Enter UserName
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), 'Naveen')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Username'), UserName)
 
 //Select Role
-WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), 'Companion', false)
+WebUI.selectOptionByValue(findTestObject('Login_Page/Login_Page_Objects/Select_Role'), Role, false)
 
 //Enter Email
-WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), 'naveen44@gmail.com')
+WebUI.setText(findTestObject('Login_Page/Login_Page_Objects/Input_Email'), Email)
 
 //Click on Get Started
 WebUI.click(findTestObject('Login_Page/Login_Page_Objects/btn_Get Started'))
 
 //Update the Text of Education category
-WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), ' I\'m Naveen, a dedicated environmental scientist, embracing my 40 years of existence. Armed with a Ph.D. in ecological research, I\'ve spent the past decade delving into the intricate dynamics of ecosystems.')
+WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info'), NewEducationInfo)
 
 //Update the Text of Education category
-WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies'), 'Besides the scientific realm, I find immense joy in expressing my creativity through the world of photography, capturing the mesmerizing moments of the natural world.')
+WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies'), NewHobbiesInfo)
 
 //Update the Text of Education category
-WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation'), 'In my quest for growth, I\'m in search of a mentor who can provide valuable insights as I navigate the intricate world of environmental research. ')
+WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation'), NewExpectationInfo)
 
 //Update the Text of Education category
-WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health'), 'On a personal front, I prioritize a balanced lifestyle despite managing allergies, with regular hiking sessions ensuring both my physical and mental well-being.')
+WebUI.setText(findTestObject('Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health'), NewHealthInfo)
 
 //scroll to save and continue btn
 WebUI.scrollToElement(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Save_n_Continue'), 
@@ -56,4 +56,6 @@ WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_P
 
 //verify thankyou page
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thankyou_Page/Thankyou_Page_Objects/txt_h1_Thank you'), 0)
+
+WebUI.closeBrowser()
 
