@@ -15,7 +15,7 @@
       <guid>b107b04f-7ea3-4ece-ab04-e660e4d51d31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_Sign_up_Type</testCaseId>
+      <testCaseId>Test Cases/Senior_createProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cbc86ec7-31b0-46c8-b6a2-69b2d6776474</id>

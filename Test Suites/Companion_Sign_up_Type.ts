@@ -15,7 +15,7 @@
       <guid>52d668b2-24b5-4803-a399-f79badac8fc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Companion_Sign_up_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_createProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>20234011-59b3-4dc5-9f93-0312f860c063</id>

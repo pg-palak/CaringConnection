@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Senior_Sign_up_Type</name>
+   <name>Companion_createProfile_Type</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f1932bed-4587-49be-aac6-16455bd87fdd</testCaseGuid>
+   <testCaseGuid>247be757-5c1c-469a-8bb3-e919493fec54</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8ddf70dd-d54c-486d-9e6d-bed3b9349256</variableId>
+      <variableId>3987df8c-f659-4e2b-9d58-a87e38601a4e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f9646872-0227-4fc3-a00d-5e1048c2bf3c</variableId>
+      <variableId>5b3ceaeb-515a-41e5-8f04-d850167a7a0c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c053c35d-10ef-4a13-90c4-a45ee2a85b84</variableId>
+      <variableId>61003cdf-18f3-472c-9d47-8d2a9f045ff9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d7a05443-a7ab-4dbb-b1b8-d6fabb6c2da4</variableId>
+      <variableId>0ca9378d-b4e6-4d40-be17-1257028cffbe</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8ddf70dd-d54c-486d-9e6d-bed3b9349256</id>
+      <id>3987df8c-f659-4e2b-9d58-a87e38601a4e</id>
       <masked>false</masked>
       <name>UserName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f9646872-0227-4fc3-a00d-5e1048c2bf3c</id>
+      <id>5b3ceaeb-515a-41e5-8f04-d850167a7a0c</id>
       <masked>false</masked>
       <name>Role</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c053c35d-10ef-4a13-90c4-a45ee2a85b84</id>
+      <id>61003cdf-18f3-472c-9d47-8d2a9f045ff9</id>
       <masked>false</masked>
       <name>Email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d7a05443-a7ab-4dbb-b1b8-d6fabb6c2da4</id>
+      <id>0ca9378d-b4e6-4d40-be17-1257028cffbe</id>
       <masked>false</masked>
       <name>Profile</name>
    </variable>
