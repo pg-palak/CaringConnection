@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_speaking,,,,2023-11-08 16:53:47,2023-11-08 16:53:49,1.395s,ERROR
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,,,,2023-11-08 16:53:48,2023-11-08 16:53:48,0.271s,ERROR
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,,,,2023-11-08 16:53:48,2023-11-08 16:53:48,0.283s,ERROR
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,,,,2023-11-08 16:53:48,2023-11-08 16:53:48,0.252s,ERROR
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,,,,2023-11-08 16:53:49,2023-11-08 16:53:49,0.211s,ERROR

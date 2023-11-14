@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_speaking" time="1.395" tests="4" failures="0" errors="4">
+   <testsuite name="Senior_speaking" tests="4" failures="0" errors="4" time="1.395" skipped="0" timestamp="2023-11-08 16:53:47" hostname="YuvarajV - LINCHNJUN23-246" id="Test Suites/Senior/Senior_speaking">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\YuvarajV\\git\\CaringConnection\\Reports\\20231108_165344\\Senior\\Senior_speaking\\20231108_165345"/>
+         <property name="logFiles" value="C:\\Users\\YuvarajV\\git\\CaringConnection\\Reports\\20231108_165344\\Senior\\Senior_speaking\\20231108_165345\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="YuvarajV - LINCHNJUN23-246"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/Senior_createProfile_Speak" time="0.271" classname="Test Cases/Senior_createProfile_Speak" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_createProfile_Speak" time="0.283" classname="Test Cases/Senior_createProfile_Speak" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_createProfile_Speak" time="0.252" classname="Test Cases/Senior_createProfile_Speak" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-08 16:53:48 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_createProfile_Speak" time="0.211" classname="Test Cases/Senior_createProfile_Speak" status="ERROR">
+         <error type="ERROR" message="Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-08 16:53:49 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-11-08 16:53:49 - [TEST_CASE][ERROR] - Test Cases/Senior_createProfile_Speak: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-08 16:53:47 - [TEST_SUITE][ERROR] - Senior_speaking: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-11-08 16:53:47 - [TEST_SUITE][ERROR] - Senior_speaking: Test Cases/Senior_createProfile_Speak FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/YuvarajV/git/CaringConnection/Scripts/Senior_createProfile_Speak/Script1699269022205.groovy: 30: unable to resolve class script1699442572860$1 
+ @ line 30, column 40.
+   options.setExperimentalOption('prefs', new script1699442572860$1())
+                                          ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699442625784.run(TempTestSuite1699442625784.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Senior_speaking</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3274cb01-e396-4c3e-8cba-3e869c72e11c</testSuiteGuid>
+   <testCaseLink>
+      <guid>249357be-5259-46f2-9e17-c8d9d00bbf91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Senior_TestCases/Senior_createProfile_Speak</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c1f5fa25-ad49-41f8-9fc3-d03c6a7fc094</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Senior_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c1f5fa25-ad49-41f8-9fc3-d03c6a7fc094</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>b398fb46-562f-4bac-a910-1c78a7aae4bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1f5fa25-ad49-41f8-9fc3-d03c6a7fc094</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>7a48ec72-8868-41f4-bf04-5fba60e30190</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c1f5fa25-ad49-41f8-9fc3-d03c6a7fc094</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Role</value>
+         <variableId>77441279-089f-46e4-a16f-db84e854d50f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

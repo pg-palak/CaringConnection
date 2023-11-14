@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Senior_createProfile_Speak</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>639ee0ee-f706-4ca7-bf58-2fcd1fa545bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b398fb46-562f-4bac-a910-1c78a7aae4bc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77441279-089f-46e4-a16f-db84e854d50f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a48ec72-8868-41f4-bf04-5fba60e30190</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b398fb46-562f-4bac-a910-1c78a7aae4bc</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77441279-089f-46e4-a16f-db84e854d50f</id>
+      <masked>false</masked>
+      <name>Role</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a48ec72-8868-41f4-bf04-5fba60e30190</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

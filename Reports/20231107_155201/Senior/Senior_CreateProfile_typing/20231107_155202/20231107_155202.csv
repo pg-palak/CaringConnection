@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_CreateProfile_typing,Chrome 118.0.0.0,,,2023-11-07 15:52:04,2023-11-07 15:53:26,1m - 21.205s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Type,Chrome 118.0.0.0,,,2023-11-07 15:52:05,2023-11-07 15:53:22,1m - 17.568s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-07 15:52:05,2023-11-07 15:52:10,4.791s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-07 15:52:10,2023-11-07 15:52:10,0.149s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-07 15:52:10,2023-11-07 15:52:11,0.864s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-07 15:52:11,2023-11-07 15:52:12,0.773s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-07 15:52:12,2023-11-07 15:52:12,0.790s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-07 15:52:12,2023-11-07 15:52:13,0.445s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-07 15:52:13,2023-11-07 15:52:15,1.715s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""), 0)",Chrome 118.0.0.0,,,2023-11-07 15:52:15,2023-11-07 15:52:46,31.418s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-11-07 15:52:46,2023-11-07 15:52:51,5.025s,PASSED
+"setText(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type""), Profile)",Chrome 118.0.0.0,,,2023-11-07 15:52:51,2023-11-07 15:53:22,31.240s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Type,Chrome 118.0.0.0,,,2023-11-07 15:53:22,2023-11-07 15:53:26,3.339s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-07 15:53:22,2023-11-07 15:53:26,3.263s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-07 15:53:26,2023-11-07 15:53:26,0.058s,FAILED

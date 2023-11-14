@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_Expectations_From_Companion</name>
+   <tag></tag>
+   <elementGuidId>fc25e09a-fe67-4843-8643-b169f5a8d8a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4ed1f2db-94f4-49f3-bc63-2ce00c4a88fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0</value>
+      <webElementGuid>e7b88ebd-2ca2-4d41-910c-7c3e2c47c4ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3. Your ideal expectations for a  Companion</value>
+      <webElementGuid>bf6e2528-9a13-40b3-9af1-51359b012e76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;px-2&quot;]/div[@class=&quot;row p-0&quot;]/div[@class=&quot;col-12 col-md-6 p-0&quot;]/p[@class=&quot;m-0&quot;]</value>
+      <webElementGuid>7df92275-a0fe-4195-b83b-441e5f3ea856</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div[3]/p</value>
+      <webElementGuid>918f64aa-5452-4423-9bde-b4ac49976447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View a sample profile'])[1]/following::p[4]</value>
+      <webElementGuid>cac38751-c117-4268-aee6-10dad5aa22d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Palak'])[1]/following::p[4]</value>
+      <webElementGuid>0f5fbcb2-7efe-495a-9f72-dab4650eefd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to type'])[1]/preceding::p[4]</value>
+      <webElementGuid>2b1b5caa-aae3-41c2-8132-aedd58b2a493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3']/parent::*</value>
+      <webElementGuid>4589dec1-5101-4a65-af22-4a5eb12388c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>93430824-592b-4c2f-80fd-38398e73c0c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '3. Your ideal expectations for a  Companion' or . = '3. Your ideal expectations for a  Companion')]</value>
+      <webElementGuid>42afafe1-1829-43b2-8902-a248af4b8ff6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

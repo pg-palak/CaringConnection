@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_CreateProfile_typing,Chrome 118.0.0.0,,,2023-11-07 15:34:07,2023-11-07 15:36:50,2m - 42.678s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Type,Chrome 118.0.0.0,,,2023-11-07 15:34:07,2023-11-07 15:35:29,1m - 21.943s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-07 15:34:07,2023-11-07 15:34:11,3.959s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-07 15:34:11,2023-11-07 15:34:12,0.166s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-07 15:34:12,2023-11-07 15:34:12,0.867s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-07 15:34:12,2023-11-07 15:34:13,0.803s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-07 15:34:13,2023-11-07 15:34:14,0.746s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-07 15:34:14,2023-11-07 15:34:14,0.406s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-07 15:34:14,2023-11-07 15:34:18,3.200s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-07 15:34:18,2023-11-07 15:34:58,40.027s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-07 15:34:58,2023-11-07 15:35:29,31.401s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Type,Chrome 118.0.0.0,,,2023-11-07 15:35:29,2023-11-07 15:36:50,1m - 20.434s,FAILED
+"openBrowser(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-07 15:35:29,2023-11-07 15:35:33,4.346s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-11-07 15:35:33,2023-11-07 15:35:34,0.160s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-07 15:35:34,2023-11-07 15:35:34,0.821s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-07 15:35:34,2023-11-07 15:35:35,0.775s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-07 15:35:35,2023-11-07 15:35:36,0.787s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-07 15:35:36,2023-11-07 15:35:36,0.444s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/txt_p3_Expectations_From_Companion""), 0)",Chrome 118.0.0.0,,,2023-11-07 15:35:36,2023-11-07 15:35:38,1.813s,PASSED
+delay(40),Chrome 118.0.0.0,,,2023-11-07 15:35:38,2023-11-07 15:36:18,40.012s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type""))",Chrome 118.0.0.0,,,2023-11-07 15:36:18,2023-11-07 15:36:50,31.256s,FAILED

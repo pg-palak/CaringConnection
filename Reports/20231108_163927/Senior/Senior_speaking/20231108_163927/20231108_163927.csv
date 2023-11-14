@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Senior_speaking,Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:42:16,2m - 47.552s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:42:05,2m - 36.555s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:/Users/YuvarajV/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"")",Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.001s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.014s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.005s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1699269022205$1(this))",Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.010s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.010s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:29,0.024s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 118.0.0.0,,,2023-11-08 16:39:29,2023-11-08 16:39:31,1.624s,PASSED
+changeWebDriver(driver),Chrome 118.0.0.0,,,2023-11-08 16:39:31,2023-11-08 16:39:31,0.100s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-08 16:39:31,2023-11-08 16:39:33,2.518s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-08 16:39:33,2023-11-08 16:39:34,0.270s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-08 16:39:34,2023-11-08 16:39:34,0.194s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-08 16:39:34,2023-11-08 16:39:34,0.187s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-08 16:39:34,2023-11-08 16:39:34,0.144s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Speak""), 40)",Chrome 118.0.0.0,,,2023-11-08 16:39:34,2023-11-08 16:40:15,41.132s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 118.0.0.0,,,2023-11-08 16:40:15,2023-11-08 16:40:21,5.963s,PASSED
+try,Chrome 118.0.0.0,,,2023-11-08 16:40:21,2023-11-08 16:41:14,52.624s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 118.0.0.0,,,2023-11-08 16:41:14,2023-11-08 16:41:14,0.140s,PASSED
+delay(20),Chrome 118.0.0.0,,,2023-11-08 16:41:14,2023-11-08 16:41:34,20.026s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 118.0.0.0,,,2023-11-08 16:41:34,2023-11-08 16:42:05,31.241s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:09,3.677s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:/Users/YuvarajV/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"")",Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.000s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.001s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1699269022205$1(this))",Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.000s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.001s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:05,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 118.0.0.0,,,2023-11-08 16:42:05,2023-11-08 16:42:06,1.081s,PASSED
+changeWebDriver(driver),Chrome 118.0.0.0,,,2023-11-08 16:42:06,2023-11-08 16:42:06,0.049s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-08 16:42:06,2023-11-08 16:42:09,2.444s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.087s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:12,2.900s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:/Users/YuvarajV/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"")",Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.001s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.000s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1699269022205$1(this))",Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.001s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.000s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:09,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 118.0.0.0,,,2023-11-08 16:42:09,2023-11-08 16:42:10,1.087s,PASSED
+changeWebDriver(driver),Chrome 118.0.0.0,,,2023-11-08 16:42:10,2023-11-08 16:42:10,0.048s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-08 16:42:10,2023-11-08 16:42:12,1.625s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.128s,FAILED
+,,,,,,,
+Test Cases/Senior_createProfile_Speak,Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:16,4.084s,FAILED
+"System.setProperty(""webdriver.chrome.driver"", ""C:/Users/YuvarajV/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"")",Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.001s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.000s,PASSED
+"options.addArguments(""start-maximized"")",Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.000s,PASSED
+"options.setExperimentalOption(""prefs"", new Script1699269022205$1(this))",Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.000s,PASSED
+capabilities = DesiredCapabilities.chrome(),Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.000s,PASSED
+"capabilities.setCapability(CAPABILITY, options)",Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:12,0.000s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities),Chrome 118.0.0.0,,,2023-11-08 16:42:12,2023-11-08 16:42:13,1.074s,PASSED
+changeWebDriver(driver),Chrome 118.0.0.0,,,2023-11-08 16:42:13,2023-11-08 16:42:13,0.033s,PASSED
+"navigateToUrl(""https://caring-connections-qa.azurewebsites.net/"")",Chrome 118.0.0.0,,,2023-11-08 16:42:13,2023-11-08 16:42:15,2.063s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Username""), UserName)",Chrome 118.0.0.0,,,2023-11-08 16:42:15,2023-11-08 16:42:15,0.224s,PASSED
+"selectOptionByValue(findTestObject(""Login_Page/Login_Page_Objects/Select_Role""), Role, false)",Chrome 118.0.0.0,,,2023-11-08 16:42:15,2023-11-08 16:42:16,0.200s,PASSED
+"setText(findTestObject(""Login_Page/Login_Page_Objects/Input_Email""), Email)",Chrome 118.0.0.0,,,2023-11-08 16:42:16,2023-11-08 16:42:16,0.197s,PASSED
+"click(findTestObject(""Login_Page/Login_Page_Objects/btn_Get Started""))",Chrome 118.0.0.0,,,2023-11-08 16:42:16,2023-11-08 16:42:16,0.112s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Speak""), 40)",Chrome 118.0.0.0,,,2023-11-08 16:42:16,2023-11-08 16:42:16,0.170s,FAILED
