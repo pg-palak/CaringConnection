@@ -71,7 +71,7 @@ WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Username'), 'pgpala
 
 WebUI.setText(findTestObject('Login_Pages/Sign_Up_Page/Input_Password'), 'Testing@123')
 
-WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/input_I am a_role'))
+WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_role_Senior'))
 
 WebUI.click(findTestObject('Login_Pages/Sign_Up_Page/button_Sign_Up'))
 

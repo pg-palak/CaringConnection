@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next</name>
+   <name>button_Re-record_new</name>
    <tag></tag>
-   <elementGuidId>48b2bb35-c706-4071-9d39-b7d9ca14371d</elementGuidId>
+   <elementGuidId>d738479c-91a7-4630-946a-8534c1bdfeb0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@type='button']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,47 +22,47 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>83b0ad38-2937-47f9-86b6-6d83a3636009</webElementGuid>
+      <webElementGuid>15833918-cf94-41db-b593-d842c76829aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> primary  buttonActive</value>
-      <webElementGuid>ee037b6f-7a23-4e84-b490-4c3b9f0bdf46</webElementGuid>
+      <value> tertiary mx-2</value>
+      <webElementGuid>4115db3d-c32e-4000-8b82-3b5d752f8fb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b630afdb-f0e3-4ffc-8992-875c751f961e</webElementGuid>
+      <value>button</value>
+      <webElementGuid>20c0e9ce-d562-4248-85e4-a5495ecff0c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Next</value>
-      <webElementGuid>2d2156fd-e024-46d7-b975-c022a0770857</webElementGuid>
+      <value>Re-record</value>
+      <webElementGuid>8e8edbb8-940b-4f5c-aee2-143db3b214fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;px-2&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;d-flex justify-content-md-end justify-content-center border-dashed--container pt-3&quot;]/button[@class=&quot;primary  buttonActive&quot;]</value>
-      <webElementGuid>2f8c4b31-10c9-4885-bfa9-855405d23798</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;px-2&quot;]/form[1]/div[@class=&quot;d-flex justify-content-sm-end justify-content-around border-dashed--container pt-3&quot;]/button[@class=&quot;tertiary mx-2&quot;]</value>
+      <webElementGuid>8911b989-573b-46d1-81d6-aa3d7bd2b3c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>5a9703ec-ff7b-469c-83e4-4d7db00100ee</webElementGuid>
+      <value>//button[@type='button']</value>
+      <webElementGuid>a9f3cd96-9563-430e-8d62-a28072a78beb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,22 +70,22 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/form/div[2]/button</value>
-      <webElementGuid>1858c5f4-9abf-4b0b-ad1d-d9acc208c331</webElementGuid>
+      <webElementGuid>f28194ab-78e9-4dd2-a559-a5978c0c3486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/button</value>
-      <webElementGuid>74647787-5082-4889-a4b4-2a28fe362ee5</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>339bf7f1-49f1-4083-bef6-cf02677177aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Next' or . = 'Next')]</value>
-      <webElementGuid>42dce8e0-9dee-4429-b3c0-179d8d4b49c2</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Re-record' or . = 'Re-record')]</value>
+      <webElementGuid>19b171a0-6a2f-4d1e-93c3-338856f91a0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
